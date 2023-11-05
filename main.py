@@ -8,10 +8,10 @@ from aiogram.filters import CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
 
+from config import BOT_TOKEN
 from form import Form
 from keyboards import like_bot_keyboard_builder
 
-BOT_TOKEN = "6956131544:AAE2QYfsW6hae4ypg8mfvkvBkUdIJsgZVnM"
 
 form_router = Router()
 bot = Bot(token=BOT_TOKEN, parse_mode=ParseMode.HTML)
